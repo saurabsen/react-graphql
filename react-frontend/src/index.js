@@ -7,7 +7,6 @@ import App from "./App";
 import Home from "./view/Home";
 import ShowPage from "./view/ShowPage";
 import "./index.css";
-import "bootstrap/dist/css/bootstrap.min.css";
 
 const client = new ApolloClient({
   uri: "http://localhost:4000/graphql",
